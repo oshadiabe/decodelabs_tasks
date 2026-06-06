@@ -1,0 +1,51 @@
+## Key Insights from Task 2 — Exploratory Data Analysis
+Here I used cleaned dataset from task 1
+
+1. Dataset Overview
+- The cleaned dataset contains 1,200 records and 14 attributes.
+- Data types are consistent and ready for analysis after cleaning.
+
+
+2. Order Value Summary
+- The mean order value(TotalPrice) is higher than the median, indicating the presence of a small number of high-value transactions that skew the average upward.
+- Most transactions fall within a lower price range, as confirmed by the right-skewed distribution histogram.
+- Boxplots for both 'TotalPrice' and 'Quantity' reveal outliers on the higher end.
+
+
+3. Product Performance
+- Printer was the most frequently ordered product (highest order count).
+- However, Chair generated the highest total revenue — demonstrating that order frequency does not always translate to the highest revenue.
+
+
+4. Payment Methods
+- Online is the most commonly used payment method.
+- Customers paying by Credit Card had the highest average order value, while Debit Card users had the lowest — suggesting that higher-value purchases tend to be completed using credit cards.
+
+
+5. Order Status
+- Order statuses are distributed relatively evenly across all categories (Delivered, Cancelled, Returned, Pending and Shipping).
+- Cancelled orders are slightly higher than the other categories.
+
+
+6. Referral Sources
+- Instagram generates the highest number of customer referrals, making it the most effective channel.
+
+
+7. Monthly Sales Trend
+- Sales volume fluctuates month to month, as seen in both the monthly sales and monthly order count plots.
+- These trends can be used to identify peak and low-demand periods for better inventory and marketing planning.
+
+
+8. Coupon Code Analysis
+- Orders without coupons had the highest return rate (24.6%).
+- SAVE10 orders had the highest delivery rate (22.03%).
+- WINTER15 orders had the highest cancellation rate (22.95%).
+- FREESHIP generated the highest total revenue (335,036.99) and the highest average order value (1,070.41).
+- Customers using WINTER15 had the lowest average order value (1,035.90).
+
+
+9. Correlation Analysis
+- Quantity and TotalPrice are positively correlated — more items in an order generally result in a higher total value.
+- UnitPrice and TotalPrice have a strong positive relationship — higher-priced products contribute significantly to revenue.
+- Quantity and UnitPrice are largely independent — customers do not necessarily buy fewer items when purchasing higher-priced products.
+
